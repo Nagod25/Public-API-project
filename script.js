@@ -8,6 +8,3 @@ Http.onreadystatechange = function() {
         console.log(Http.responseText)
     }
   }
-
-
-  const app = document.getElementById('createBtn')
