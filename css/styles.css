@@ -1,0 +1,114 @@
+/*------ General styles------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*------Navigation------*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    margin-top: 80px;
+    border-right: 2px solid rgb(199, 199, 199);
+}
+
+.nav-image {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidenavicons {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.sidenavicons1 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-color: rgb(223, 236, 252);
+    padding-top: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.sidenavicons img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.sidenavicons1 img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 40px;
+}
+
+.topbar {
+    background-color: rgb(3, 99, 213);
+    height: 80px;
+}
+
+/*------Main------*/
+main {
+    margin-left: 100px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+main h4 {
+    margin-bottom: 0;
+    color: rgb(87, 87, 87);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main p {
+    font-size: 12px;
+    color:rgb(87, 87, 87);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+main img {
+    width: 8%;
+    margin-bottom: 20px;
+}
+
+/*------Button------*/
+#createBtn {
+    background-color:rgb(3, 99, 213);
+    padding: 8px 45px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+input {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
