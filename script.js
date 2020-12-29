@@ -1,10 +1,11 @@
-const Http = new XMLHttpRequest();
-const url='https://alexwohlbruck.github.io/cat-facts/';
-Http.open("GET", url);
-Http.send();
-
-Http.onreadystatechange = function() {
-    if(this.readyState==4 && this.status==200) {
-        console.log(Http.responseText)
-    }
+function loadDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("createBtn").innerHTML =
+        this.responseText;
+      }
+    };
+    xhttp.open("GET", "https://alexwohlbruck.github.io/cat-facts/", true);
+    xhttp.send();
   }
