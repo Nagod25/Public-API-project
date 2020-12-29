@@ -96,19 +96,17 @@ main img {
 }
 
 /*------Button------*/
-#createBtn {
+
+button {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
     background-color:rgb(3, 99, 213);
     padding: 8px 45px;
     border-radius: 3px;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     color: white;
-}
-
-input {
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    cursor: pointer;
 }
