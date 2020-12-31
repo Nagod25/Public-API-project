@@ -114,18 +114,10 @@ button {
 
 @media only screen and (max-width: 700px) {
     nav {
-        margin-left: -30px;
+        display: none;
     }
+}
 
-    nav a {float: right;}
-    main {margin-left: 50%;
-          width: 50%;    
-    }
-    .nav-image {
-        width: 50px;
-        height: 50px;
-    }
-  }
 
 /*--------------Public API--------------*/
 .page-header {
