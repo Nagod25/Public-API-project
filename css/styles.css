@@ -111,8 +111,124 @@ button {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     nav {
-      display: none;
+        margin-left: -30px;
+    }
+
+    nav a {float: right;}
+    main {margin-left: 50%;
+          width: 50%;    
+    }
+    .nav-image {
+        width: 50px;
+        height: 50px;
     }
   }
+
+/*--------------Public API--------------*/
+.page-header {
+    background-color: rgb(22, 121, 116);
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.project-name {
+    font-size: 60px;
+    color: white;
+    margin-left: -100px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: Ebrima;
+}
+
+.project-tagline {
+    font-size: 20px;
+    color: rgb(104, 167, 169);
+    margin-left: -100px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    padding-bottom: 60px;
+}
+
+.page-header a {
+    border-top: 1px solid rgb(104, 167, 169);
+    border-bottom: 1px solid rgb(104, 167, 169);
+    border-left: 1px solid rgb(104, 167, 169);
+    border-right: 1px solid rgb(104, 167, 169);
+    cursor: pointer;
+    background-color:rgb(39, 131, 131);
+    padding: 12px 30px;
+    border-radius: 3px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: -100px;
+}
+
+.main-content {
+    margin-left: 100px;
+    /* margin-right: 10px; */
+    
+}
+
+.main-content p {
+    font-size: 18px;
+    color: rgb(96, 108, 113);
+}
+
+.main-content h2 {
+    font-size: 25px;
+    color: rgb(21, 153, 87);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-content h3 {
+    font-size: 20px;
+    color: rgb(21, 153, 87);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-content a {
+    text-decoration: none;
+}
+
+.main-content img[alt] {
+    font-size: 45px;
+    margin-left: -100px;
+    color: rgb(53, 53, 53);
+    font-family: 'Raleway', sans-serif;
+}
+
+li p {
+    margin-left: 500px;
+}
+
+.main-content li {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    padding-left: -100px;
+    border-left: -100px;
+    color: rgb(96, 108, 113)
+}
+
+footer {
+    border-top:  1px solid rgb(199, 199, 199);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: rgb(96, 108, 113);
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
